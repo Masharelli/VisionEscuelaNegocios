@@ -788,7 +788,7 @@ ul#top_menu li a.btn_1:hover {
   background-color: rgba(13, 22, 55, 0.8);
 }
 #hero_in.courses:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_courses.jpg) center center no-repeat;
+  background: url(file:///Users/masharelli/Documents/Trentz/VisionEscuelaNegocios/html_menu_1/img/banner-cursos.png) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -796,7 +796,7 @@ ul#top_menu li a.btn_1:hover {
 }
 #hero_in.courses .wrapper {
   background-color: #0d1637;
-  background-color: #0d1637;
+  background-color: rgba(13, 22, 55, 0.8);
 }
 #hero_in.contacts:before {
   background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_contacts.jpg) center center no-repeat;
