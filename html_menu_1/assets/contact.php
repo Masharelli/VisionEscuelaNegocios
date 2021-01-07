@@ -51,16 +51,16 @@ if(get_magic_quotes_gpc()) {
 
 
 //$address = "HERE your email address";
-$address = "info@domain.com";
+$address = "vision_escueladenegocios@hotmail.com";
 
 
 // Below the subject of the email
-$e_subject = 'You\'ve been contacted by ' . $name_contact . '.';
+$e_subject = 'Has sido contactado por ' . $name_contact . '.';
 
 // You can change this if you feel that you need to.
-$e_body = "You have been contacted by $name_contact $lastname_contact with additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "Has sido contactado por $name_contact $lastname_contact con el siguiente mensaje" . PHP_EOL . PHP_EOL;
 $e_content = "\"$message_contact\"" . PHP_EOL . PHP_EOL;
-$e_reply = "You can contact $lastname_contact via email, $email_contact or via phone $phone_contact";
+$e_reply = "Puedes contactar a  $lastname_contact por correo, $email_contact o por teléfono: $phone_contact";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
@@ -71,9 +71,9 @@ $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 $user = "$email_contact";
-$usersubject = "Thank You";
+$usersubject = "Gracias";
 $userheaders = "From: Vision_ Escueladenegocios@hotmail.com\n";
-$usermessage = "Thank you for contact UDEMA. We will reply shortly!";
+$usermessage = "Gracias por contactar a Visión Escuela de negocios";
 mail($user,$usersubject,$usermessage,$userheaders);
 
 if(mail($address, $e_subject, $msg, $headers)) {
