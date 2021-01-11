@@ -19,3 +19,10 @@
 .my-float{
 	margin-top:16px;
 }
+
+.parrafo-nosotros{
+	text-align: justify;
+}
+.height-p{
+	height: fit-content;
+}

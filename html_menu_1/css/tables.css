@@ -404,7 +404,7 @@ Primary style
 }
 .pricing-body {
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  text-align: justify;
 }
 .is-switched .pricing-body {
   /* fix a bug on Chrome Android */
@@ -417,7 +417,8 @@ Primary style
 }
 
 .pricing-features {
-  width: 600px;
+  width: auto;
+  text-align: justify;
 }
 .pricing-features:after {
   content: "";
@@ -425,7 +426,6 @@ Primary style
   clear: both;
 }
 .pricing-features li {
-  width: 100px;
   float: left;
   padding: 1.6em 1em;
   font-size: 14px;
@@ -433,7 +433,6 @@ Primary style
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 .pricing-features em {
   display: block;
@@ -442,12 +441,9 @@ Primary style
   font-style: normal;
 }
 @media only screen and (min-width: 768px) {
-  .pricing-features {
-    width: auto;
-  }
+  
   .pricing-features li {
     float: none;
-    width: auto;
     padding: 1em;
   }
   .popular .pricing-features li {
@@ -457,11 +453,11 @@ Primary style
     background-color: rgba(102, 45, 145, 0.06);
   }
   .pricing-features em {
-    display: inline-block;
     margin-bottom: 0;
   }
   .cd-has-margins .popular .pricing-features li {
     margin: 0;
+    text-align: center;
   }
 }
 
