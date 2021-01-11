@@ -51,7 +51,7 @@ if(get_magic_quotes_gpc()) {
 
 
 //$address = "HERE your email address";
-$address = "vision_escueladenegocios@hotmail.com";
+$address = "contacto@visionescuela.com";
 
 
 // Below the subject of the email
@@ -72,7 +72,7 @@ $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 $user = "$email_contact";
 $usersubject = "Gracias";
-$userheaders = "From: Vision_ Escueladenegocios@hotmail.com\n";
+$userheaders = "From: contacto@visionescuela.com\n";
 $usermessage = "Gracias por contactar a Visión Escuela de negocios";
 mail($user,$usersubject,$usermessage,$userheaders);
 
