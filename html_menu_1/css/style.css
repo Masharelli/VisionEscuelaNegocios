@@ -777,7 +777,7 @@ ul#top_menu li a.btn_1:hover {
   border-bottom: 5px solid #FFC107;
 }
 #hero_in.general:before {
-  background: url(file:///Users/masharelli/Documents/Trentz/VisionEscuelaNegocios/html_menu_1/img/banner-nosotros.png) center center no-repeat;
+  background: url(https://visionescuela.com/img/banner-nosotros.png) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -788,7 +788,7 @@ ul#top_menu li a.btn_1:hover {
   background-color: rgba(13, 22, 55, 0.8);
 }
 #hero_in.courses:before {
-  background: url(file:///Users/masharelli/Documents/Trentz/VisionEscuelaNegocios/html_menu_1/img/banner-cursos.png) center center no-repeat;
+  background: url(https://visionescuela.com/img/banner-cursos.png) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -5100,7 +5100,7 @@ ul.list_3 li:before {
 }
 
 .call_section {
-background: url(file:///Users/masharelli/Documents/Trentz/VisionEscuelaNegocios/html_menu_1/img/contacto2.png) center center no-repeat fixed;
+background: url(https://visionescuela.com/img/contacto2.png) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
