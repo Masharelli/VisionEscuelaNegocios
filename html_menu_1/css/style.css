@@ -340,6 +340,7 @@ h6 {
 }
 
 p {
+  justify-content: space-around;
   margin-bottom: 30px;
 }
 
